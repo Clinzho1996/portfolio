@@ -3,15 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="./src/assets/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emonena Confidence | Portfolio</title>
     <meta
       name="description"
       content="Skilled software developer proficient in relevant technologies, ready to contribute to your projects. Expertise in front-end and back-end development, utilizing React, React Native, Node.js, Python, Java, and more. Strong problem-solving abilities, effective communication skills, and attention to detail. Experienced in designing and implementing scalable applications, adhering to best practices. Collaborative and adaptable, committed to continuous learning and staying up-to-date with industry trends. Let's connect and explore how I can add value to your organization."
     />
+    <meta name="theme-color" content="#915EFF" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- index.html -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
   </body>
 </html>
