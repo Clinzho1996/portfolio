@@ -108,7 +108,7 @@ const Contact = () => {
               <FaGithub className="text-4xl text-white bg-[#915eff] p-1 rounded-full" />
             </a>
             <a
-              href="tel:/+2388125306092"
+              href="tel:/+2348125306092"
               target="_blank"
               rel="noopener noreferrer"
             >
