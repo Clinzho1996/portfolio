@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import Seo from "./seo";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -38,6 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+      <Seo />
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -47,11 +49,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        expertise in frameworks like React, Node.js, and Three.js. I'm a quick
-        learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Skilled software developer proficient in relevant technologies, ready to
+        contribute to your projects. Expertise in front-end web and mobile
+        application development, utilizing React, React Native, Node.js,
+        JavaScript, and more. Strong problem-solving abilities, effective
+        communication skills, and attention to detail. Experienced in designing
+        and implementing scalable applications, adhering to best practices.
+        Collaborative and adaptable, committed to continuous learning and
+        staying up-to-date with industry trends. Let's connect and explore how I
+        can add value to your organization.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

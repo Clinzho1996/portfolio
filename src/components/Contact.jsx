@@ -14,6 +14,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Seo from "./seo";
 
 const Contact = () => {
   const formRef = useRef();
@@ -35,28 +36,22 @@ const Contact = () => {
     });
   };
 
-  //
-
-  //
-
-  //
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        service_yj26peu,
-        template_379tjq5,
+        "service_8ljvz8n",
+        "template_379tjq5",
         {
           from_name: form.name,
           to_name: "Dev Clinton",
           from_email: form.email,
-          to_email: "confidinho@yahoo.com",
+          to_email: "confidencec363@gmail.com",
           message: form.message,
         },
-        ex8hN7PDODmq5Ha5J
+        "ex8hN7PDODmq5Ha5J"
       )
       .then(
         () => {
@@ -82,6 +77,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+      <Seo />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -110,13 +106,6 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaGithub className="text-4xl text-white bg-[#915eff] p-1 rounded-full" />
-            </a>
-            <a
-              href="https://www.facebook.com/lifeofconfidence.clinton.5"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook className="text-4xl text-white bg-[#915eff] p-1 rounded-full" />
             </a>
             <a
               href="tel:/+2388125306092"
