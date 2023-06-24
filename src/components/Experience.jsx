@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import {
   VerticalTimeline,
@@ -11,6 +12,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import Seo from "./seo";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -60,6 +62,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
+        <Seo />
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
@@ -71,7 +74,7 @@ const Experience = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard 
+            <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
