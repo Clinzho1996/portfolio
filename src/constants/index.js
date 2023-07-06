@@ -14,14 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   aisum,
   dashboard,
@@ -33,7 +25,6 @@ import {
   fmha2,
   bisadmin,
   elchari,
-  greenmouse,
   metricks,
   wordpress,
   woo,
@@ -41,6 +32,8 @@ import {
   woweffect,
   gtech,
   brain,
+  nextjs,
+  promptopia,
 } from "../assets";
 
 export const navLinks = [
@@ -95,8 +88,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -335,6 +332,27 @@ const projects = [
     source_code_link: "https://netflix-devclinton.netlify.app/",
   },
   {
+    name: "Promptopia",
+    description:
+      "Promptopia is a cutting-edge web application designed to foster creativity and collaboration among users.  The app employs advanced natural language processing algorithms to generate a wide range of thought-provoking prompts tailored to various genres, styles, technologies, and themes.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://devclintonpromptopia.vercel.app/",
+  },
+  {
     name: "C-Stream Movie App",
     description:
       "Introducing our innovative movie app, where film enthusiasts can dive into a world of captivating stories and cinematic experiences. Our app offers a seamless platform for discovering, and enjoying a vast collection of movies from various genres and eras. With user-friendly features, users can easily find their next favorite film.",
@@ -439,27 +457,6 @@ const projects = [
     ],
     image: elchari,
     source_code_link: "https://el-chari.netlify.app/",
-  },
-  {
-    name: "Greenmouse Techn",
-    description:
-      "Greenmouse is a trusted web designer, professional web design company in Lagos with proven expertise in website design,  mobile apps development, digital  marketing services tailored to solve digital business  needs in Nigeria and Abroad. I created the website during my days with company as the Lead web developer at the moment.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "elementor",
-        color: "green-text-gradient",
-      },
-      {
-        name: "php",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: greenmouse,
-    source_code_link: "https://greenmousetech.com/",
   },
   {
     name: "Metricks Blog",

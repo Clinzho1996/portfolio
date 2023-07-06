@@ -48,8 +48,12 @@ import w24 from "../assets/company/w24.png";
 import gtech from "../assets/company/gtech.png";
 import woweffect from "../assets/company/wowe.png";
 import brain from "../assets/company/brain.png";
+import nextjs from "../assets/tech/nextjs.png";
+import promptopia from "./promptopia.jpg";
 
 export {
+  nextjs,
+  promptopia,
   brain,
   woweffect,
   gtech,
