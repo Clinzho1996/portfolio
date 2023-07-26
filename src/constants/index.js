@@ -34,6 +34,7 @@ import {
   brain,
   nextjs,
   promptopia,
+  lyricks,
 } from "../assets";
 
 export const navLinks = [
@@ -311,16 +312,16 @@ const projects = [
     source_code_link: "https://devclintonyoutube.netlify.app/",
   },
   {
-    name: "Netflix Clone",
+    name: "Lyricks Music Stream",
     description:
-      "  Dev-Clinton's Netflix clone web app is a stunning and   user-friendly platform that offers a seamless streaming  experience to users, just like the popular original. With an   intuitive interface and a vast library of movies and TV shows, our app provides an immersive entertainment experience at your fingertips.",
+      " Introducing Lyricks: Your ultimate music streaming web app with real-time lyric synchronization, vast song library, personalized playlists, and smart recommendations. Connect with artists and fans, enjoy translated lyrics, and experience ad-free premium options. Dive into the magic of music today!",
     tags: [
       {
-        name: "reactjs",
+        name: "react+vite",
         color: "blue-text-gradient",
       },
       {
-        name: "themoviedbapi",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
@@ -328,8 +329,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix2,
-    source_code_link: "https://netflix-devclinton.netlify.app/",
+    image: lyricks,
+    source_code_link: "https://lyricks-devclinton.vercel.app/",
   },
   {
     name: "Promptopia",

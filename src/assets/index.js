@@ -50,9 +50,11 @@ import woweffect from "../assets/company/wowe.png";
 import brain from "../assets/company/brain.png";
 import nextjs from "../assets/tech/nextjs.png";
 import promptopia from "./promptopia.jpg";
+import lyricks from "./lyricks.jpg";
 
 export {
   nextjs,
+  lyricks,
   promptopia,
   brain,
   woweffect,
