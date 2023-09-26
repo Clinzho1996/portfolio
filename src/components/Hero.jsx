@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -20,8 +21,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Dev-Clinton</span>
           </h1>
           <p className={`${styles.heroSubText}`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces, mobile and web applications
+            Crafting 3D Visuals, Intuitive UIs, and{" "}
+            <br className="sm:block hidden" />
+            Seamless Apps: Where Imagination Meets Innovation.
           </p>
         </div>
       </div>

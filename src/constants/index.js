@@ -4,11 +4,9 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -19,7 +17,6 @@ import {
   dashboard,
   three_js,
   youtube2,
-  netflix2,
   cstream1,
   swapbase,
   fmha2,
@@ -35,6 +32,9 @@ import {
   nextjs,
   promptopia,
   lyricks,
+  lagosagric,
+  ware24,
+  nama,
 } from "../assets";
 
 export const navLinks = [
@@ -224,9 +224,51 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Nigerian Airspace",
+    description:
+      "As the developer behind the Nigerian Airspace Management Agency (NAMA) project, I am excited to showcase a significant milestone in enhancing the safety and efficiency of Nigeria's airspace. NAMA is at the forefront of modernizing air traffic control and management, ensuring smoother, safer, and more reliable air travel across the nation.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "government",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nama,
+    source_code_link: "https://nama.gov.ng/",
+  },
+  {
+    name: "Ministry of Agriculture",
+    description:
+      "As the developer behind the Lagos State Ministry of Agriculture website, I am honored to present a digital gateway to one of Nigeria's key drivers of agricultural progress. The platform is designed to empower farmers, stakeholders, and enthusiasts with vital information, resources, and opportunities in the agricultural sector within Lagos State.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "government",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lagosagric,
+    source_code_link: "http://lagosagric.com/",
+  },
+  {
     name: "AI Summarizer",
     description:
-      "Introducing our app, a powerful tool that revolutionizes the way you consume information. Say goodbye to lengthy articles and complex texts! Our app specializes in summarizing content into concise and simpler forms, making it easier for you to grasp the key points and save valuable time. With advanced algorithms and natural language processing, our app extracts the essence of any article, condensing it into a clear and digestible summary.",
+      "As the developer behind the AI Summarizer app, I am thrilled to present a revolutionary solution that transforms the way we interact with vast amounts of information. The AI Summarizer empowers users to effortlessly distill lengthy articles, reports, and documents into concise, coherent summaries, saving time and enhancing comprehension.",
     tags: [
       {
         name: "reactjs",
@@ -249,9 +291,30 @@ const projects = [
     source_code_link: "https://devclinton-ai-sum.netlify.app/",
   },
   {
+    name: "Warehouse24",
+    description:
+      "As the proud developer behind Warehouse24, I am thrilled to present this dynamic and cutting-edge multi-vendor e-commerce platform to the world. Warehouse24 is your gateway to a virtual shopping haven, where a diverse array of trusted sellers converge to offer an unparalleled selection of products. Join us on this journey, and let Warehouse24 redefine your online shopping experience. ",
+    tags: [
+      {
+        name: "multivendor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ware24,
+    source_code_link: "https://warehouse24.ng/",
+  },
+  {
     name: "Shoppy Dashboard",
     description:
-      "Shoppy Dashboard is a powerful e-commerce management tool that provides comprehensive insights and control over your online store. With an intuitive and user-friendly interface, it allows    you to monitor key metrics, track sales performance, manage    inventory, and analyze customer behavior in real-time. Stay informed about your store's performance with visual charts and reports, streamline order management, and optimize your product catalog.",
+      "Welcome to a new era of eCommerce excellence. As the developer, I am committed to ongoing enhancements and innovations to ensure that the eCommerce Dashboard remains at the forefront of eCommerce technology. Join us in experiencing the future of eCommerce success, where your data becomes a powerful asset in your journey to prosperity.  ",
     tags: [
       {
         name: "react",
@@ -272,7 +335,7 @@ const projects = [
   {
     name: "T-Shirt Customizer",
     description:
-      " The T-Shirt Customizer is a cutting-edge web application that    leverages the power of Three.js, a popular JavaScript library  for creating 3D graphics, to provide users with an immersive and interactive experience in customizing their very own t-shirts. With a seamless blend of creativity and user-friendly controls, this app empowers users to add, customize, and edit various elements on their virtual t-shirts, giving them the freedom to express their unique style and preferences.",
+      " As the developer, I am committed to continuous innovation, ensuring that the T-Shirt Customizer App remains at the forefront of personalized fashion. Join us in embracing a new era of creativity and self-expression through fashion. Explore the limitless possibilities of the T-Shirt Customizer App today, where innovation and personalization converge. ",
     tags: [
       {
         name: "react + vite",

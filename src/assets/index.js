@@ -51,8 +51,12 @@ import brain from "../assets/company/brain.png";
 import nextjs from "../assets/tech/nextjs.png";
 import promptopia from "./promptopia.jpg";
 import lyricks from "./lyricks.jpg";
+import ware24 from "./w24.jpg";
+import lagosagric from "./lagosagric.jpg";
+import nama from "./nama.jpg";
 
 export {
+  nama,
   nextjs,
   lyricks,
   promptopia,
@@ -103,4 +107,6 @@ export {
   jobit,
   tripguide,
   weblink,
+  ware24,
+  lagosagric,
 };
