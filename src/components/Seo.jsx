@@ -3,16 +3,32 @@ import { Helmet } from "react-helmet";
 const Seo = () => {
   return (
     <Helmet>
-      <title>Emonena Confidence | Freelance web and mobile app developer</title>
-      <meta name="robots" content="index, follow" />
-      <meta name="author" content=" Emonena Confidence | Dev-Clinton" />
-      <meta name="publisher" content="Dev-Clinton" />
+      <title>Confidence Emonena | Dev-Clinton</title>
+      <link rel="icon" href="/logomain.png" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta
-        name="description"
-        content="Best freelance web designer in Lagos, best freelance web developers in Nigeria, best freelance web developers in Lagos, best mobile app developers in Lagos, best mobile app developers in Nigeria, React developers in Lagos, React Developers in Nigeria, React Native developers in Nigeria, React Native developers in Lagos, Software developers in Lagos, Software developers in Nigeria ready to improve your business. I build responsive websites that convert visitors to customers."
+        name="apple-mobile-web-app-title"
+        content="Best freelance web developer in lagos, best freelance web developer in Nigeria"
       />
 
-      {/* Add other relevant meta tags for SEO */}
+      <meta
+        key="metaname"
+        itemProp="name"
+        name="title"
+        content="Confidence Emonena | Dev-Clinton"
+      />
+      <meta
+        key="metadescription"
+        itemProp="description"
+        name="description"
+        content="Best freelance web developer in lagos, best freelance web developer in Nigeria"
+      />
+      <meta
+        name="keywords"
+        content="Developer, Web developer, mobile app developer, graphics designer, UI/UX designer, freelance"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
     </Helmet>
   );
 };
