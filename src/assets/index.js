@@ -54,8 +54,12 @@ import lyricks from "./lyricks.jpg";
 import ware24 from "./w24.jpg";
 import lagosagric from "./lagosagric.jpg";
 import nama from "./nama.jpg";
+import clintonsai from "./clintonsai.jpg";
+import gamemain from "./gamemain.jpg";
 
 export {
+  gamemain,
+  clintonsai,
   nama,
   nextjs,
   lyricks,

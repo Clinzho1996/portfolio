@@ -21,10 +21,7 @@ import {
   swapbase,
   fmha2,
   bisadmin,
-  elchari,
-  metricks,
   wordpress,
-  woo,
   w24,
   woweffect,
   gtech,
@@ -35,6 +32,9 @@ import {
   lagosagric,
   ware24,
   nama,
+  typescript,
+  gamemain,
+  clintonsai,
 } from "../assets";
 
 export const navLinks = [
@@ -109,10 +109,6 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "Woocommerce",
-    icon: woo,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -123,6 +119,10 @@ const technologies = [
   {
     name: "WordPress",
     icon: wordpress,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
   },
 ];
 
@@ -245,6 +245,31 @@ const projects = [
     source_code_link: "https://nama.gov.ng/",
   },
   {
+    name: "Clinton's AI",
+    description:
+      "As the creator of Clinton's AI, I'm excited to introduce a groundbreaking solution that revolutionizes the way we engage with extensive amounts of content. Clinton's AI seamlessly empowers users to effortlessly condense lengthy articles, reports, and documents into concise and coherent summaries, offering a time-saving and comprehension-enhancing experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Openai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: clintonsai,
+    source_code_link: "https://clintonsai.vercel.app/",
+  },
+  {
     name: "Ministry of Agriculture",
     description:
       "As the developer behind the Lagos State Ministry of Agriculture website, I am honored to present a digital gateway to one of Nigeria's key drivers of agricultural progress. The platform is designed to empower farmers, stakeholders, and enthusiasts with vital information, resources, and opportunities in the agricultural sector within Lagos State.",
@@ -264,6 +289,27 @@ const projects = [
     ],
     image: lagosagric,
     source_code_link: "http://lagosagric.com/",
+  },
+  {
+    name: " Game Radar",
+    description:
+      "As the developer behind the Gameradar app, I'm thrilled to introduce a groundbreaking solution that redefines the way we engage with extensive volumes of gaming content. Gameradar seamlessly empowers users to effortlessly condense and explore vast collections of gaming data from the RAWG API, providing concise and comprehensive insights, saving time, and enhancing the gaming experience.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rawg",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gamemain,
+    source_code_link: "https://game-radar.vercel.app/",
   },
   {
     name: "AI Summarizer",
@@ -375,6 +421,27 @@ const projects = [
     source_code_link: "https://devclintonyoutube.netlify.app/",
   },
   {
+    name: "C-Stream Movie App",
+    description:
+      "Introducing our innovative movie app, where film enthusiasts can dive into a world of captivating stories and cinematic experiences. Our app offers a seamless platform for discovering, and enjoying a vast collection of movies from various genres and eras. With user-friendly features, users can easily find their next favorite film.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cstream1,
+    source_code_link: "https://wa.me/+2348125306092",
+  },
+  {
     name: "Lyricks Music Stream",
     description:
       " Introducing Lyricks: Your ultimate music streaming web app with real-time lyric synchronization, vast song library, personalized playlists, and smart recommendations. Connect with artists and fans, enjoy translated lyrics, and experience ad-free premium options. Dive into the magic of music today!",
@@ -417,25 +484,26 @@ const projects = [
     source_code_link: "https://devclintonpromptopia.vercel.app/",
   },
   {
-    name: "C-Stream Movie App",
+    name: "FMHA Events Calendar",
     description:
-      "Introducing our innovative movie app, where film enthusiasts can dive into a world of captivating stories and cinematic experiences. Our app offers a seamless platform for discovering, and enjoying a vast collection of movies from various genres and eras. With user-friendly features, users can easily find their next favorite film.",
+      "Introducing our innovative event calendar app, designed to simplify and enhance your event planning and organization. With our intuitive interface and powerful features, you can effortlessly manage and keep track of all your upcoming events in one centralized location. Stay organized with customizable reminders, event notifications, and easy-to-use scheduling tools. ",
     tags: [
       {
         name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "agenda",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "calendar",
         color: "pink-text-gradient",
       },
     ],
-    image: cstream1,
-    source_code_link: "https://wa.me/+2348125306092",
+    image: fmha2,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.fmhaeventcalendar",
   },
   {
     name: "Swapbase",
@@ -459,28 +527,6 @@ const projects = [
     source_code_link: "https://swapbase-new.netlify.app/",
   },
   {
-    name: "FMHA Events Calendar",
-    description:
-      "Introducing our innovative event calendar app, designed to simplify and enhance your event planning and organization. With our intuitive interface and powerful features, you can effortlessly manage and keep track of all your upcoming events in one centralized location. Stay organized with customizable reminders, event notifications, and easy-to-use scheduling tools. ",
-    tags: [
-      {
-        name: "reactnative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "agenda",
-        color: "green-text-gradient",
-      },
-      {
-        name: "calendar",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: fmha2,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.fmhaeventcalendar",
-  },
-  {
     name: "BIS Admin App",
     description:
       "Introducing our cutting-edge employee tracker app, designed to streamline workforce management and boost productivity. With our user-friendly interface and advanced features, you can effortlessly track and monitor employee attendance, and performance metrics in real-time. Stay organized with comprehensive employee profiles and work history. ",
@@ -500,48 +546,6 @@ const projects = [
     ],
     image: bisadmin,
     source_code_link: "https://wa.me/+2348125306092",
-  },
-  {
-    name: "El-Chari Ltd",
-    description:
-      "The founders of EL-Chári Limited have vast experience in financial literacy and the investment sector with reasonable years of experience in Human Resources and customer relations  noticed the current trend in the investment sector; A trend that involves companies without a solid business background leaving certain period. ",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: elchari,
-    source_code_link: "https://el-chari.netlify.app/",
-  },
-  {
-    name: "Metricks Blog",
-    description:
-      "Dive into in-depth articles, expert insights, and captivating reviews, providing you with valuable knowledge and understanding of the tech landscape. Whether you're a tech enthusiast, industry professional, or simply curious about the future, our blog is your go-to source for staying informed and inspired by the latest technology releases. ",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "elementor",
-        color: "green-text-gradient",
-      },
-      {
-        name: "blog",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: metricks,
-    source_code_link: "https://blog.metricks.io/",
   },
 ];
 
