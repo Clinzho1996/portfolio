@@ -15,7 +15,6 @@ import {
   threejs,
   aisum,
   dashboard,
-  three_js,
   youtube2,
   cstream1,
   swapbase,
@@ -35,6 +34,7 @@ import {
   typescript,
   gamemain,
   clintonsai,
+  dcimage,
 } from "../assets";
 
 export const navLinks = [
@@ -312,6 +312,27 @@ const projects = [
     source_code_link: "https://game-radar.vercel.app/",
   },
   {
+    name: "Shoppy Dashboard",
+    description:
+      "Welcome to a new era of eCommerce excellence. As the developer, I am committed to ongoing enhancements and innovations to ensure that the eCommerce Dashboard remains at the forefront of eCommerce technology. Join us in experiencing the future of eCommerce success, where your data becomes a powerful asset in your journey to prosperity.  ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link: "https://devclintonshoppy.netlify.app/",
+  },
+  {
     name: "AI Summarizer",
     description:
       "As the developer behind the AI Summarizer app, I am thrilled to present a revolutionary solution that transforms the way we interact with vast amounts of information. The AI Summarizer empowers users to effortlessly distill lengthy articles, reports, and documents into concise, coherent summaries, saving time and enhancing comprehension.",
@@ -357,47 +378,27 @@ const projects = [
     image: ware24,
     source_code_link: "https://warehouse24.ng/",
   },
+
   {
-    name: "Shoppy Dashboard",
+    name: "DC AI Image Generator",
     description:
-      "Welcome to a new era of eCommerce excellence. As the developer, I am committed to ongoing enhancements and innovations to ensure that the eCommerce Dashboard remains at the forefront of eCommerce technology. Join us in experiencing the future of eCommerce success, where your data becomes a powerful asset in your journey to prosperity.  ",
+      "DC AI Image Generator is an innovative and versatile application harnessing the power of artificial intelligence to craft striking and personalized images. This cutting-edge tool enables users to explore a realm of creative possibilities, offering a seamless experience to generate, customize, and enhance images effortlessly. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Dall-E",
         color: "pink-text-gradient",
       },
     ],
-    image: dashboard,
-    source_code_link: "https://devclintonshoppy.netlify.app/",
-  },
-  {
-    name: "T-Shirt Customizer",
-    description:
-      " As the developer, I am committed to continuous innovation, ensuring that the T-Shirt Customizer App remains at the forefront of personalized fashion. Join us in embracing a new era of creativity and self-expression through fashion. Explore the limitless possibilities of the T-Shirt Customizer App today, where innovation and personalization converge. ",
-    tags: [
-      {
-        name: "react + vite",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: three_js,
-    source_code_link: "https://devclintonthreejs.netlify.app/",
+    image: dcimage,
+    source_code_link: "https://dcimagegen.vercel.app/",
   },
   {
     name: "Youtube Clone",

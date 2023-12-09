@@ -56,8 +56,10 @@ import lagosagric from "./lagosagric.jpg";
 import nama from "./nama.jpg";
 import clintonsai from "./clintonsai.jpg";
 import gamemain from "./gamemain.jpg";
+import dcimage from "./dcimage.jpg"
 
 export {
+  dcimage,
   gamemain,
   clintonsai,
   nama,
